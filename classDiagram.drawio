@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T04:51:01.105Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="WRO6YI0yG0V_QDKqy4S1" version="21.2.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-05-11T04:55:54.798Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="t7ZAnrqZWCAWIAZUPGVz" version="21.2.9" type="github" pages="10">
   <diagram id="pO3MdKgrZuAGYdT4maOJ" name="class_diagram">
     <mxGraphModel dx="232" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -121,7 +121,7 @@
         <mxCell id="Y0QEt7UJyjL08IKQHozE-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Y0QEt7UJyjL08IKQHozE-9" vertex="1">
           <mxGeometry y="100" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Y0QEt7UJyjL08IKQHozE-12" value="showRecruitInfo()&lt;br&gt;getDepartApplyCount()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="Y0QEt7UJyjL08IKQHozE-9" vertex="1">
+        <mxCell id="Y0QEt7UJyjL08IKQHozE-12" value="getRecruitDepartInfo()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="Y0QEt7UJyjL08IKQHozE-9" vertex="1">
           <mxGeometry y="108" width="160" height="52" as="geometry" />
         </mxCell>
         <mxCell id="Y0QEt7UJyjL08IKQHozE-13" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.372;entryY=0.976;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Y0QEt7UJyjL08IKQHozE-5" edge="1">
@@ -146,7 +146,7 @@
         <mxCell id="zgVNyb772J8b74xou4hm-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zgVNyb772J8b74xou4hm-1" vertex="1">
           <mxGeometry y="100" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="zgVNyb772J8b74xou4hm-4" value="showInfo()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="zgVNyb772J8b74xou4hm-1" vertex="1">
+        <mxCell id="zgVNyb772J8b74xou4hm-4" value="getRecruitCount()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="zgVNyb772J8b74xou4hm-1" vertex="1">
           <mxGeometry y="108" width="160" height="52" as="geometry" />
         </mxCell>
         <mxCell id="Z35v7WAChhQf6CAPm1-N-5" value="&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;ApplyInfo&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
@@ -609,9 +609,6 @@
             <mxPoint x="653" y="156" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ztcmLR0k12IKxnh8X_NW-18" value="2.1.1 :&amp;nbsp;getDepartApplyCount()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ztcmLR0k12IKxnh8X_NW-0" vertex="1">
-          <mxGeometry x="510" y="80" width="180" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="WhYDCEKqLV0uuV27hQcL-0" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" parent="ztcmLR0k12IKxnh8X_NW-0" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="540" y="124.25" as="sourcePoint" />
@@ -627,14 +624,11 @@
             <mxPoint x="670" y="156" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9C4PtWMEHHzoRTAmqusf-3" value="2.1.1 :&amp;nbsp;getDepartApplyCount()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ztcmLR0k12IKxnh8X_NW-0" vertex="1">
-          <mxGeometry x="510" y="80" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="9C4PtWMEHHzoRTAmqusf-5" value="2.1.1 :&amp;nbsp;getDepartApplyCount()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ztcmLR0k12IKxnh8X_NW-0" vertex="1">
-          <mxGeometry x="510" y="80" width="180" height="30" as="geometry" />
+        <mxCell id="9C4PtWMEHHzoRTAmqusf-3" value="2.1.1 :&amp;nbsp;getRecruitDepartInfo()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ztcmLR0k12IKxnh8X_NW-0" vertex="1">
+          <mxGeometry x="500" y="90" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9C4PtWMEHHzoRTAmqusf-7" value="2.1.2 :&amp;nbsp;getRecruitCount()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ztcmLR0k12IKxnh8X_NW-0" vertex="1">
-          <mxGeometry x="333" y="230" width="180" height="30" as="geometry" />
+          <mxGeometry x="335" y="230" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uep05S_DBsHA7j4f1mKk-30" value="&lt;b&gt;sd&amp;nbsp; getApplyCount&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="67" y="1347" width="810" height="343" as="geometry" />
