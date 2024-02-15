@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-15T13:15:49.682Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="5ILabz9SfPHr66hEIL-F" version="23.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-15T13:17:20.206Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="igMWRa_2ILOFfjormzYr" version="23.1.4" type="github">
   <diagram name="Page-1" id="b520641d-4fe3-3701-9064-5fc419738815">
     <mxGraphModel dx="2585" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -506,8 +506,11 @@
         <mxCell id="lr7paG35g0JCsMJMvGpv-52" value="사용자 테이블&amp;nbsp;&lt;br&gt;갱신 완료" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="2635.5" y="3030" width="170" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="lr7paG35g0JCsMJMvGpv-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lr7paG35g0JCsMJMvGpv-54" target="lr7paG35g0JCsMJMvGpv-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-54" value="사용자 테이블 수정" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1893.38" y="3310" width="155.5" height="60" as="geometry" />
+          <mxGeometry x="1893.38" y="3327" width="155.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-61" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lr7paG35g0JCsMJMvGpv-58" target="lr7paG35g0JCsMJMvGpv-60">
           <mxGeometry relative="1" as="geometry" />
@@ -516,10 +519,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-58" value="필수값 &lt;br&gt;검사" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1920" y="3440" width="102.25" height="80" as="geometry" />
+          <mxGeometry x="1921.12" y="3620" width="102.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-60" value="유효한 값이 입력되지 않았습니다.&amp;nbsp;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="2110" y="3450" width="187.75" height="60" as="geometry" />
+          <mxGeometry x="2111.12" y="3630" width="187.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-65" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lr7paG35g0JCsMJMvGpv-62" target="lr7paG35g0JCsMJMvGpv-64">
           <mxGeometry relative="1" as="geometry" />
@@ -528,34 +531,36 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-62" value="사용자 ID&lt;br&gt;중복 검사" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1927.75" y="3600" width="92.25" height="80" as="geometry" />
+          <mxGeometry x="1928.87" y="3780" width="92.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-64" value="이미 사용 중인 ID입니다.&amp;nbsp;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="2110" y="3615" width="187.75" height="50" as="geometry" />
+          <mxGeometry x="2111.12" y="3795" width="187.75" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lr7paG35g0JCsMJMvGpv-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="lr7paG35g0JCsMJMvGpv-54">
+        <mxCell id="lr7paG35g0JCsMJMvGpv-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2350" y="4021.333251953125" as="sourcePoint" />
+            <mxPoint x="2350" y="4140" as="sourcePoint" />
+            <mxPoint x="2049" y="3357" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2350" y="3340" />
+              <mxPoint x="2350" y="3360" />
+              <mxPoint x="2049" y="3360" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-75" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2300" y="3470" as="sourcePoint" />
-            <mxPoint x="2350" y="3470" as="targetPoint" />
+            <mxPoint x="2301.12" y="3650" as="sourcePoint" />
+            <mxPoint x="2351.12" y="3650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-76" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2299" y="3638" as="sourcePoint" />
-            <mxPoint x="2349" y="3638" as="targetPoint" />
+            <mxPoint x="2300.12" y="3818" as="sourcePoint" />
+            <mxPoint x="2350.12" y="3818" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lr7paG35g0JCsMJMvGpv-78" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lr7paG35g0JCsMJMvGpv-54" target="lr7paG35g0JCsMJMvGpv-58">
+        <mxCell id="lr7paG35g0JCsMJMvGpv-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="lr7paG35g0JCsMJMvGpv-58">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1981" y="3498" as="sourcePoint" />
+            <mxPoint x="1972" y="3510" as="sourcePoint" />
             <mxPoint x="1984" y="3578" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -563,20 +568,20 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-80" value="비밀번호 유효성&lt;br&gt;검사" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1927.75" y="3760" width="92.25" height="80" as="geometry" />
+          <mxGeometry x="1928.87" y="3940" width="92.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-82" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="lr7paG35g0JCsMJMvGpv-83" source="lr7paG35g0JCsMJMvGpv-80">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2020" y="3805" as="sourcePoint" />
+            <mxPoint x="2021.12" y="3985" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-83" value="영문과 숫자를 최소 1개씩 포함하여 7자리 이상의 암호로 변경합니다." style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="2100" y="3763" width="207.75" height="74" as="geometry" />
+          <mxGeometry x="2101.12" y="3943" width="207.75" height="74" as="geometry" />
         </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-84" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2310" y="3792" as="sourcePoint" />
-            <mxPoint x="2348" y="3792" as="targetPoint" />
+            <mxPoint x="2311.12" y="3972" as="sourcePoint" />
+            <mxPoint x="2349.12" y="3972" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-89" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lr7paG35g0JCsMJMvGpv-85" target="lr7paG35g0JCsMJMvGpv-87">
@@ -586,19 +591,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-85" value="상위 권한 요청" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1927.75" y="3920" width="92.25" height="80" as="geometry" />
+          <mxGeometry x="1928.87" y="4100" width="92.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-87" value="제한된 권한을 요청하였습니다." style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="2110" y="3935" width="187.75" height="50" as="geometry" />
+          <mxGeometry x="2111.12" y="4115" width="187.75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-88" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2300" y="3955" as="sourcePoint" />
-            <mxPoint x="2350" y="3955" as="targetPoint" />
+            <mxPoint x="2301.12" y="4135" as="sourcePoint" />
+            <mxPoint x="2351.12" y="4135" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-91" value="사용자 테이블 갱신" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1913.875" y="4090" width="120" height="60" as="geometry" />
+          <mxGeometry x="1914.995" y="4270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lr7paG35g0JCsMJMvGpv-93" value="사용자 ID, 패스워드, 이름 변경" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1911.13" y="3450" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
