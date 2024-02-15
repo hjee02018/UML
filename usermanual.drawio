@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-15T13:08:41.888Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="wUL8ZHBrGp8g5w1ZyGK1" version="23.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-15T13:15:49.682Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="5ILabz9SfPHr66hEIL-F" version="23.1.4" type="github">
   <diagram name="Page-1" id="b520641d-4fe3-3701-9064-5fc419738815">
     <mxGraphModel dx="2585" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -524,7 +524,7 @@
         <mxCell id="lr7paG35g0JCsMJMvGpv-65" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lr7paG35g0JCsMJMvGpv-62" target="lr7paG35g0JCsMJMvGpv-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lr7paG35g0JCsMJMvGpv-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lr7paG35g0JCsMJMvGpv-62" target="lr7paG35g0JCsMJMvGpv-80">
+        <mxCell id="lr7paG35g0JCsMJMvGpv-81" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lr7paG35g0JCsMJMvGpv-62" target="lr7paG35g0JCsMJMvGpv-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-62" value="사용자 ID&lt;br&gt;중복 검사" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
@@ -559,7 +559,7 @@
             <mxPoint x="1984" y="3578" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lr7paG35g0JCsMJMvGpv-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lr7paG35g0JCsMJMvGpv-80" target="lr7paG35g0JCsMJMvGpv-85">
+        <mxCell id="lr7paG35g0JCsMJMvGpv-86" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lr7paG35g0JCsMJMvGpv-80" target="lr7paG35g0JCsMJMvGpv-85">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-80" value="비밀번호 유효성&lt;br&gt;검사" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
@@ -582,6 +582,9 @@
         <mxCell id="lr7paG35g0JCsMJMvGpv-89" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lr7paG35g0JCsMJMvGpv-85" target="lr7paG35g0JCsMJMvGpv-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="lr7paG35g0JCsMJMvGpv-92" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lr7paG35g0JCsMJMvGpv-85" target="lr7paG35g0JCsMJMvGpv-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lr7paG35g0JCsMJMvGpv-85" value="상위 권한 요청" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="1927.75" y="3920" width="92.25" height="80" as="geometry" />
         </mxCell>
@@ -593,6 +596,9 @@
             <mxPoint x="2300" y="3955" as="sourcePoint" />
             <mxPoint x="2350" y="3955" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lr7paG35g0JCsMJMvGpv-91" value="사용자 테이블 갱신" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1913.875" y="4090" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
