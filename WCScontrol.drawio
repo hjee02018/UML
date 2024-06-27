@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-27T02:33:43.285Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="6Nvy60qmD8QZ039Kqj8a" version="24.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-27T02:35:34.211Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="GxKDGWJiTEXwDdnFwYoA" version="24.6.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1150" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1150" dy="990" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -102,6 +102,15 @@
         </mxCell>
         <mxCell id="5Jy3Hu0_u8CA1WoD8tqa-5" value="P_STORED_OUT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="940" y="505" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Jy3Hu0_u8CA1WoD8tqa-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5Jy3Hu0_u8CA1WoD8tqa-8" target="5Jy3Hu0_u8CA1WoD8tqa-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Jy3Hu0_u8CA1WoD8tqa-8" value="작업 완료" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="565" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Jy3Hu0_u8CA1WoD8tqa-9" value="P_UPDATE_WORK_STATUS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="940" y="565" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
