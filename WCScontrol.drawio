@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-27T02:33:24.955Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="cH8CCqy57cvVdIPhz3xF" version="24.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-27T02:33:43.285Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="6Nvy60qmD8QZ039Kqj8a" version="24.6.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1150" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,7 +100,7 @@
         <mxCell id="5Jy3Hu0_u8CA1WoD8tqa-4" value="화물 Unloading 후 Data Write" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="600" y="505" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5Jy3Hu0_u8CA1WoD8tqa-5" value="P_EXEC_STORE_IN" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="5Jy3Hu0_u8CA1WoD8tqa-5" value="P_STORED_OUT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="940" y="505" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
