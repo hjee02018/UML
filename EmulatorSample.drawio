@@ -5,12 +5,12 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="39150e848f15840c-1" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="Services [비즈니스 로직 및 엔진]" vertex="1">
-          <mxGeometry height="220" width="330" x="120" y="70" as="geometry" />
+          <mxGeometry height="220" width="340" x="120" y="60" as="geometry" />
         </mxCell>
         <mxCell id="39150e848f15840c-2" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="Models : [설비 물리 모델 및 상태 정의]" vertex="1">
           <mxGeometry height="220" width="720" x="530" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="39150e848f15840c-3" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="Block" vertex="1">
+        <mxCell id="39150e848f15840c-3" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="ViewModels" vertex="1">
           <mxGeometry height="150" width="260" x="370" y="410" as="geometry" />
         </mxCell>
         <mxCell id="39150e848f15840c-4" parent="1" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="&amp;laquo;interface&amp;raquo;&lt;br&gt;&lt;b&gt;Name&lt;/b&gt;" vertex="1">
@@ -73,6 +73,9 @@
         </mxCell>
         <mxCell id="QhKZ98TfjEcIxmE-6HXq-2" parent="1" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;" value="Config" vertex="1">
           <mxGeometry height="60" width="120" x="880" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="QhKZ98TfjEcIxmE-6HXq-3" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="Views : [User Interface]" vertex="1">
+          <mxGeometry height="150" width="260" x="750" y="410" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
