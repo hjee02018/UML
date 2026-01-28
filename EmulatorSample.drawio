@@ -8,7 +8,7 @@
           <mxGeometry height="220" width="330" x="120" y="70" as="geometry" />
         </mxCell>
         <mxCell id="39150e848f15840c-2" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="Models : [설비 물리 모델 및 상태 정의]" vertex="1">
-          <mxGeometry height="220" width="330" x="530" y="70" as="geometry" />
+          <mxGeometry height="220" width="720" x="530" y="60" as="geometry" />
         </mxCell>
         <mxCell id="39150e848f15840c-3" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="Block" vertex="1">
           <mxGeometry height="150" width="260" x="370" y="410" as="geometry" />
@@ -71,8 +71,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QhKZ98TfjEcIxmE-6HXq-1" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="Config : [설비 설정 값 정의] : Input Parameter" vertex="1">
-          <mxGeometry height="220" width="330" x="970" y="70" as="geometry" />
+        <mxCell id="QhKZ98TfjEcIxmE-6HXq-2" parent="1" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;" value="Config" vertex="1">
+          <mxGeometry height="60" width="120" x="880" y="135" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
