@@ -75,7 +75,31 @@
           <mxGeometry height="60" width="120" x="880" y="135" as="geometry" />
         </mxCell>
         <mxCell id="QhKZ98TfjEcIxmE-6HXq-3" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="Views : [User Interface]" vertex="1">
-          <mxGeometry height="150" width="260" x="750" y="410" as="geometry" />
+          <mxGeometry height="360" width="420" x="750" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="QhKZ98TfjEcIxmE-6HXq-7" edge="1" parent="1" source="QhKZ98TfjEcIxmE-6HXq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QhKZ98TfjEcIxmE-6HXq-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QhKZ98TfjEcIxmE-6HXq-8" edge="1" parent="1" source="QhKZ98TfjEcIxmE-6HXq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QhKZ98TfjEcIxmE-6HXq-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QhKZ98TfjEcIxmE-6HXq-4" parent="1" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;" value="MainWindow" vertex="1">
+          <mxGeometry height="60" width="120" x="760" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="QhKZ98TfjEcIxmE-6HXq-5" parent="1" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;" value="CommunicationView" vertex="1">
+          <mxGeometry height="45" width="180" x="960" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="QhKZ98TfjEcIxmE-6HXq-9" parent="1" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;" value="EquipmentListView&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22shape%3Dcomponent%3Balign%3Dleft%3BspacingLeft%3D36%3Brounded%3D0%3Bshadow%3D0%3Bcomic%3D0%3BlabelBackgroundColor%3Dnone%3BstrokeWidth%3D1%3BfontFamily%3DVerdana%3BfontSize%3D12%3Bhtml%3D1%3B%22%20value%3D%22CommunicationView%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2245%22%20width%3D%22180%22%20x%3D%22960%22%20y%3D%22455%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
+          <mxGeometry height="45" width="180" x="960" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="QhKZ98TfjEcIxmE-6HXq-10" parent="1" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;" value="LogView" vertex="1">
+          <mxGeometry height="45" width="180" x="960" y="567.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QhKZ98TfjEcIxmE-6HXq-11" parent="1" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;" value="PerformMonitorView" vertex="1">
+          <mxGeometry height="45" width="180" x="960" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="QhKZ98TfjEcIxmE-6HXq-12" parent="1" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;html=1;" value="SimulationConfigView" vertex="1">
+          <mxGeometry height="45" width="180" x="960" y="670" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
