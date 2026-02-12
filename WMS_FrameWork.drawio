@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.8">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1041" dy="1359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1429" dy="1519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,7 +81,7 @@
         <mxCell id="6LAByeTlrnKxN7bmEOMS-4" parent="6LAByeTlrnKxN7bmEOMS-2" style="swimlane;startSize=20;" value="IMS" vertex="1">
           <mxGeometry height="480" width="360" x="150" as="geometry" />
         </mxCell>
-        <mxCell id="6LAByeTlrnKxN7bmEOMS-21" edge="1" parent="6LAByeTlrnKxN7bmEOMS-4" source="6LAByeTlrnKxN7bmEOMS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6LAByeTlrnKxN7bmEOMS-20" value="">
+        <mxCell id="_y16wuykzDn7x2ScM1C--2" edge="1" parent="6LAByeTlrnKxN7bmEOMS-4" source="6LAByeTlrnKxN7bmEOMS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_y16wuykzDn7x2ScM1C--1" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6LAByeTlrnKxN7bmEOMS-8" parent="6LAByeTlrnKxN7bmEOMS-4" style="whiteSpace=wrap;html=1;" value="수동 입고 작업 생성" vertex="1">
@@ -102,7 +102,7 @@
         <mxCell id="6LAByeTlrnKxN7bmEOMS-29" edge="1" parent="6LAByeTlrnKxN7bmEOMS-4" source="6LAByeTlrnKxN7bmEOMS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6LAByeTlrnKxN7bmEOMS-28" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6LAByeTlrnKxN7bmEOMS-20" parent="6LAByeTlrnKxN7bmEOMS-4" style="rhombus;whiteSpace=wrap;html=1;" value="입고 유형" vertex="1">
+        <mxCell id="6LAByeTlrnKxN7bmEOMS-20" parent="6LAByeTlrnKxN7bmEOMS-4" style="rhombus;whiteSpace=wrap;html=1;" value="입고 유형 입력" vertex="1">
           <mxGeometry height="66" width="80" x="65" y="154" as="geometry" />
         </mxCell>
         <mxCell id="6LAByeTlrnKxN7bmEOMS-22" parent="6LAByeTlrnKxN7bmEOMS-4" style="whiteSpace=wrap;html=1;" value="완전 수동 입고" vertex="1">
@@ -110,6 +110,15 @@
         </mxCell>
         <mxCell id="6LAByeTlrnKxN7bmEOMS-28" parent="6LAByeTlrnKxN7bmEOMS-4" style="whiteSpace=wrap;html=1;" value="일반 수동 입고" vertex="1">
           <mxGeometry height="30" width="120" x="205" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="_y16wuykzDn7x2ScM1C--3" edge="1" parent="6LAByeTlrnKxN7bmEOMS-4" source="_y16wuykzDn7x2ScM1C--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="6LAByeTlrnKxN7bmEOMS-20" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="56" as="sourcePoint" />
+            <mxPoint x="180" y="154" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_y16wuykzDn7x2ScM1C--1" parent="6LAByeTlrnKxN7bmEOMS-4" style="rhombus;whiteSpace=wrap;html=1;" value="권한 체크" vertex="1">
+          <mxGeometry height="80" width="80" x="265" y="14" as="geometry" />
         </mxCell>
         <mxCell id="6LAByeTlrnKxN7bmEOMS-9" edge="1" parent="6LAByeTlrnKxN7bmEOMS-2" source="6LAByeTlrnKxN7bmEOMS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6LAByeTlrnKxN7bmEOMS-8" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -123,7 +132,13 @@
         <mxCell id="6LAByeTlrnKxN7bmEOMS-19" parent="6LAByeTlrnKxN7bmEOMS-2" style="swimlane;startSize=20;" value="WCS" vertex="1">
           <mxGeometry height="480" width="340" x="950" as="geometry" />
         </mxCell>
+        <mxCell id="_y16wuykzDn7x2ScM1C--5" parent="6LAByeTlrnKxN7bmEOMS-19" style="whiteSpace=wrap;html=1;" value="입고 작업 수행" vertex="1">
+          <mxGeometry height="45" width="120" x="60" y="184.5" as="geometry" />
+        </mxCell>
         <mxCell id="6LAByeTlrnKxN7bmEOMS-33" edge="1" parent="6LAByeTlrnKxN7bmEOMS-2" source="6LAByeTlrnKxN7bmEOMS-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6LAByeTlrnKxN7bmEOMS-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_y16wuykzDn7x2ScM1C--6" edge="1" parent="6LAByeTlrnKxN7bmEOMS-2" source="6LAByeTlrnKxN7bmEOMS-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_y16wuykzDn7x2ScM1C--5" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
